@@ -1,0 +1,153 @@
+<html>
+ <head> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <style id="compiled-css" type="text/css">
+
+.boardWrapper {
+   margin-left:auto;
+   margin-right:auto;
+   width:461px;
+   height:461px;
+}
+h1:hover,td:hover{
+    transform: scale(1.1,1.1);
+}
+table{
+    border: 10px solid orange;
+}
+h1{
+    text-align: center;
+    color: rgb(160, 181, 226);
+}
+
+.board {
+   table-layout:fixed;
+   border:none;
+   border-collapse:collapse;
+   border-spacing:0px;
+   height:100%;
+   width:100%;
+}
+
+table.board tr td {
+   border:2px solid rgb(31, 32, 30);
+}
+td{
+    height: 40px;
+    width: 40px;
+    font-size: 40px;
+    text-align: center;
+}
+
+table.board tr:nth-of-type(odd) td:nth-of-type(odd),
+table.board tr:nth-of-type(even) td:nth-of-type(even) {
+   background-color:rgb(95, 98, 99);
+}
+
+table.board tr:nth-of-type(even) td:nth-of-type(odd),
+table.board tr:nth-of-type(odd) td:nth-of-type(even) {
+   background-color:rgb(218, 229, 238);
+}
+h5
+{
+  font-size: medium;
+  font-weight:bold;
+  margin-left:200px;
+}
+
+</style> 
+ </head> 
+ <body style="background-repeat: no-repeat;background-attachment: fixed;background-size: 100% 100%;" background="chessimg.jpeg">
+    <H1 style="font-style:arial;"><I>CHESS BOARD</I></H1>
+    <h5 style="color:gray; font-style: italic;">Chess is an abstract strategy game that involves no 
+        hidden information and no elements of chance.  ^v^  gens una sumus - We are one people</h5>
+    <div id="main"> 
+        <div class="boardWrapper"> 
+         <table role="grid" class="board" id="chessBoard"> 
+          <tbody> 
+           <tr> 
+            <td>♖</td> 
+            <td>♘</td> 
+            <td>♗</td> 
+            <td>♕</td> 
+            <td>♔</td> 
+            <td>♗</td> 
+            <td>♘</td> 
+            <td>♖</td> 
+           </tr> 
+           <tr> 
+            <td>♙</td> 
+            <td>♙</td> 
+            <td>♙</td> 
+            <td>♙</td> 
+            <td>♙</td> 
+            <td>♙</td> 
+            <td>♙</td> 
+            <td>♙</td> 
+           </tr> 
+           <tr> 
+            <td></td> 
+            <td></td> 
+            <td></td> 
+            <td></td> 
+            <td></td> 
+            <td></td> 
+            <td></td> 
+            <td></td> 
+           </tr> 
+           <tr>  
+            <td></td> 
+            <td></td> 
+            <td></td> 
+            <td></td> 
+            <td></td> 
+            <td></td> 
+            <td></td> 
+            <td></td> 
+           </tr> 
+           <tr>  
+            <td></td> 
+            <td></td> 
+            <td></td> 
+            <td></td> 
+            <td></td> 
+            <td></td> 
+            <td></td> 
+            <td></td> 
+           </tr> 
+           <tr> 
+            <td></td> 
+            <td></td> 
+            <td></td> 
+            <td></td> 
+            <td></td> 
+            <td></td> 
+            <td></td> 
+            <td></td> 
+           </tr> 
+           <tr> 
+            <td>♟</td> 
+            <td>♟</td> 
+            <td>♟</td> 
+            <td>♟</td> 
+            <td>♟</td> 
+            <td>♟</td> 
+            <td>♟</td> 
+            <td>♟</td> 
+           </tr> 
+           <tr>  
+            <td>♜</td> 
+            <td>♞</td> 
+            <td>♝</td> 
+            <td>♛</td> 
+            <td>♚</td> 
+            <td>♝</td> 
+            <td>♞</td> 
+            <td>♜</td> 
+           </tr> 
+          </tbody> 
+         </table> 
+        </div> 
+       </div>  
+ </body>
+</html>
